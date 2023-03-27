@@ -12,8 +12,11 @@ public class GameManager : MonoBehaviour
     // variable para la reproduccion de sonidos
     private AudioSource audioSource;
     // variable para controlar puntuacion
-    private int puntuacion = 0;
-    
+    private float puntuacion = 0;
+    public float Puntuacion{
+        get{ return puntuacion; }
+    }
+
     void Awake()
     {
         instance = this;
@@ -34,12 +37,17 @@ public class GameManager : MonoBehaviour
     }
 
     // metodo para la suma de puntos
-    public void SumarPuntuacion(int puntos)
+    public void SumarPuntuacion(float puntos)
     {
         puntuacion += puntos;
         textoPuntos.text = $"{puntuacion}";
         // depuracion por consola TODO eliminar en implementacion final
         print("puntuacion: " + puntuacion);
+    }
+
+    public void RestarPuntuacion(float puntos){
+        puntuacion -= puntos;
+        textoPuntos.text = $"{puntuacion}";
     }
 
     // metodo para que reproduzca el sonido
