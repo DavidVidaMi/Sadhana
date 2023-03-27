@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Batuta : Instrumento
 {
-    private int puntosClic;
     public Texture2D cursorTexture;
     private CursorMode cursorMode = CursorMode.Auto;
     private Vector2 hotSpot = Vector2.zero;
+    private float incrementoClick;
+    private float puntosClick;
     // Start is called before the first frame update
     void Start()
     {
-        puntosInstrumento = 1;   
-        cantidadInstrumento = 1;
+        puntosClick = 1;
+        puntosCoste = 5f;  
+        puntosInSegundo = 0f; 
+        cantidadInstrumento = 0f;
+        incrementoCoste = 1.2f;
+        incrementoClick = 1f;
         Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
     }
 
@@ -25,8 +30,23 @@ public class Batuta : Instrumento
         }
     }
 
-    protected override void OnMouseOver(){
+    protected override void CuentaPuntos(){
+        GameManager.instance.SumarPuntuacion(puntosClick * incrementoClick);
+    }
 
+    protected override void CosteInstrumento(){
+        // se recalcula el coste del mismo
+        puntosCoste = puntosCoste * incrementoCoste;
+        incrementoClick += 0.1f;
+    }
+
+    protected override void OnMouseOver(){
+        if (Input.GetMouseButtonDown(0)){
+            if(Compra()){
+                GameManager.instance.RestarPuntuacion(puntosCoste);
+                CosteInstrumento();
+            }
+        }
     }
 
 }
