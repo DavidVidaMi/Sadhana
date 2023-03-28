@@ -27,3 +27,8 @@ Las Partituras son la segunda moneda del juego, ganadas unicamente de forma espe
 <suv>Para más información ver en el Documento "Extras_A_Futuro" en el punto (2).</suv>
 
 Hay tres poderes especiales que se irán desbloqueando poco a poco según avanzas. Cada uno necesita de ciertas tareas para ser desbloqueado y cada uno te ayudará de una forma, tras usarlos necesitarán de un tiempo para recargarse y poder usarse de nuevo.
+
+##### 6. Logros Ocultos:
+<suv>Para más infromación ver en el Documento "Extras_A_Futuro" en el punto (3)</suv>
+
+Los Logros Ocultos, son como indica el nombre logros ocultos en el juego. Logros para la satisfacción del coleccionista de logros de los juegos, desde logros simples como "Compra tu primer instrumento" hasta "Asciende 100 veces". Cada vez que desbloquees un logro aparecerá marcado en el el menú de logros con su descripción.
