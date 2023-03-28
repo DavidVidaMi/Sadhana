@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bajo : Instrumento {
+public class Guitarra : Instrumento {
 
     // Start is called before the first frame update
     new void Start() {
 
-        puntosCoste = 15f;
-        puntosInSegundo = 1f;
-        incrementoCoste = 1.4f;
+        puntosCoste = 20f;
+        puntosInSegundo = 1.2f;
+        incrementoCoste = 1.6f;
         cantidadInstrumento = 0f;
         base.Start();
 
