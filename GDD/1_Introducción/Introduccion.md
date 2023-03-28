@@ -1,6 +1,6 @@
 # Introducción
 
-Sadhana Project es un juego de _tap tap_ de estilo _incremental_ que junta sus mecánicas con ritmo y música. Da clicks, compra instrumentos y sigue hasta crear tú música.
+Sadhana Project es un juego de _tap tap_ de estilo _incremental_ que junta sus mecánicas con ritmo y música. Da clicks, compra instrumentos y sigue y sigue hasta crear tú música. 
 
 ## Introducción más ''comercial''
 
