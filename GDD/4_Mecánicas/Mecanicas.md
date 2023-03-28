@@ -12,3 +12,9 @@ Los instrumentos se podrán ir comprando y mejorando con las notas musicales, in
 
 Poco a poco se irán desbloqueando nuevos instrumentos, con ello irás avanzando poco a poco además con ellos podrás crear los ritmos que tu quieras e incluso música.
 
+##### 3. Crear tu música:
+
+La combinación tan única de géneros de este videojuego te permite jugar, dentro del propio juego, creando ritmos y hasta tu propia música. A medida que avanzas en el juego irás desbloqueando nuevos instrumentos para componer ritmos nuevos o añadirlos al actual que tengas. 
+
+Esta mecánica puede que lleve logros ocultos y sirva para desbloquear cosas secretas o que se vendrán en un futuro.
+
