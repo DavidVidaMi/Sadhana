@@ -6,3 +6,9 @@ Aquí se describen un poco las mecánicas principales del videojuego Sadhana Pro
 
 La Batuta en este caso es el nombre dado al generador de clicks del jugador, es decir, en pocas palabras, el cursor del ratón. El recurso principal para la generación de notas musicales en el juego y con lo único que empiezas al principio. A medida que vas avanzando y al igual que los instrumentos se puede ir mejorando.
 
+##### 2. Los Instrumentos:
+
+Los instrumentos se podrán ir comprando y mejorando con las notas musicales, incrementando poco a poco el precio de cada vez. Los instrumentos generan un audio cada cierto tiempo una vez se disponen en el escenario (en pantalla) generando cada cierto tiempo una cantidad fija de notas que puede se aumentada poco a poco con mejoras.
+
+Poco a poco se irán desbloqueando nuevos instrumentos, con ello irás avanzando poco a poco además con ellos podrás crear los ritmos que tu quieras e incluso música.
+
