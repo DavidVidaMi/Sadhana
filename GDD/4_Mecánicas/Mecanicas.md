@@ -20,6 +20,8 @@ La combinación tan única de géneros de este videojuego te permite jugar, dent
 
 Esta mecánica puede que lleve logros ocultos y sirva para desbloquear cosas secretas o que se vendrán en un futuro.
 
+<suv>Para más información de algo relacionado ver en el Documento "Extras_A_Futuro" en le punto (4).</suv>
+
 ##### 4. Las Partituras:
 <suv>Para más información ver en el Documento "Extras_A_Futuro" en el punto (1).</suv>
 

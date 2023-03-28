@@ -40,3 +40,10 @@ Ascención: Son logros relacionados con la Ascensión Musical, por ejemplo:
 Secretos: Son logros que directamente no tienen una descripción para que puedas ver como se desbloquean, e incluso algunos ni aparecen de primeras en el menú de logros. Por ejemplo:
     Logro: ¿En serio, tan vago eres?
     Descripción (Oculta): "Consigue ascender sin generar notas musicales mediante la batuta." 
+
+### (4)
+##### Grabadores In Game:
+
+Mecanica a Futuro de "Edificios" que graban el audio que queramos de los instrumentos en pantalla para crear ritmos y meldias más complejas, incluso mezclar instrumentos entre mundos.
+
+Ejemplos para posibles "Edificios": Gramófono, Jukebox, Equipo de Altavoces, etc.
