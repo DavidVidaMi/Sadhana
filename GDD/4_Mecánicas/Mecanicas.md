@@ -19,6 +19,11 @@ La combinación tan única de géneros de este videojuego te permite jugar, dent
 Esta mecánica puede que lleve logros ocultos y sirva para desbloquear cosas secretas o que se vendrán en un futuro.
 
 ##### 4. Las Partituras:
-<suv>Para más información ver en el Documento "A_Futuro" en el punto (1).</suv>
+<suv>Para más información ver en el Documento "Extras_A_Futuro" en el punto (1).</suv>
 
 Las Partituras son la segunda moneda del juego, ganadas unicamente de forma especial con la Ascensión Musical, usadas para ganar mejoras permanentes que no desaparecerán y desbloquearán nuevas cosas ocultas de primeras.
+
+##### 5. Poderes Especiales:
+<suv>Para más información ver en el Documento "Extras_A_Futuro" en el punto (2).</suv>
+
+Hay tres poderes especiales que se irán desbloqueando poco a poco según avanzas. Cada uno necesita de ciertas tareas para ser desbloqueado y cada uno te ayudará de una forma, tras usarlos necesitarán de un tiempo para recargarse y poder usarse de nuevo.
