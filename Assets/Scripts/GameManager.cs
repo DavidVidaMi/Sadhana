@@ -39,15 +39,21 @@ public class GameManager : MonoBehaviour
     // metodo para la suma de puntos
     public void SumarPuntuacion(float puntos)
     {
-        puntuacion += puntos;
-        textoPuntos.text = $"{puntuacion}";
-        // depuracion por consola TODO eliminar en implementacion final
-        print("puntuacion: " + puntuacion);
+        if (!MenuPausa.GameIsPaused)
+        {
+            puntuacion += puntos;
+            textoPuntos.text = $"{puntuacion}";
+            // depuracion por consola TODO eliminar en implementacion final
+            print("puntuacion: " + puntuacion);
+        }
     }
 
     public void RestarPuntuacion(float puntos){
-        puntuacion -= puntos;
-        textoPuntos.text = $"{puntuacion}";
+        if (!MenuPausa.GameIsPaused)
+        {
+            puntuacion -= puntos;
+            textoPuntos.text = $"{puntuacion}";
+        }
     }
 
     // metodo para que reproduzca el sonido

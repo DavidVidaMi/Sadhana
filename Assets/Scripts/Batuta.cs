@@ -10,7 +10,7 @@ public class Batuta : Instrumento
     private float incrementoClick;
     private float puntosClick;
     // Start is called before the first frame update
-    void Start()
+    new void Start()
     {
         puntosClick = 1;
         puntosCoste = 5f;  
@@ -19,13 +19,15 @@ public class Batuta : Instrumento
         incrementoCoste = 1.2f;
         incrementoClick = 1f;
         Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
+        base.Start();
     }
 
     // Update is called once per frame
-    void Update()
+   new void Update()
     {
         
-        if (Input.GetMouseButtonDown(0)){
+        if (Input.GetMouseButtonDown(0))
+        {
             CuentaPuntos();
         }
     }
