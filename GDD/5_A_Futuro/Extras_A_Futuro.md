@@ -29,17 +29,23 @@ Acumulación de Instrumentos: Son los logros relacionados con la compra de instr
     Logro: ¡Tu Primer Instrumento!
     Descripción: "Has comprado tu primer Instrumento, es el primer paso para avanzar."
 
-Acumulación de Notas Musicales: Son logros relacionados con las Notas Musciales y Partituras, por ejemplo:
+Notas Musicales por Segundo: Son logros relacionados con las Notas Musciales generadas cada segundo en el juego, por ejemplo:
     Logro: Director Novato
     Descripción: "Consigue 100 notas musicales por segundo."
 
-Ascención: Son logros relacionados con la Ascensión Musical, por ejemplo:
+Notas Musicales por Ascensión Musical: Son logros relacionados con las Notas Musciales generadas en total en una ascensión, por ejemplo:
+    Logro: Mi primer sonido
+    Descripción: "Consigue 1 nota en una Ascensión Musical."
+
+Ascención y Partituras: Son logros relacionados con la Ascensión Musical y las Partituras, por ejemplo:
     Logro: Tu primera Ascensión Musical
     Descripción: "Asciende por primera vez."
 
 Secretos: Son logros que directamente no tienen una descripción para que puedas ver como se desbloquean, e incluso algunos ni aparecen de primeras en el menú de logros. Por ejemplo:
     Logro: ¿En serio, tan vago eres?
     Descripción (Oculta): "Consigue ascender sin generar notas musicales mediante la batuta." 
+
+<suv>Para ver los logros descritos hasta el momento ir a: [Documento de Logros](Logros.md).</suv>
 
 ### (4)
 ##### Grabadores In Game:
