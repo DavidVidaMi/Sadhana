@@ -2,17 +2,17 @@
 
 Este documento es una recopilación de las ideas para logros donde se describirá cada logro con su título y descripción, además en el caso de los logros ocultos indicar el como lograrlos.
 
-###### Logros de Clase...
+##### Logros de Clase ...
 #### "Acumulación de Instrumentos"
 
-1.  
+1.  Logro: "A Cappella" - "A Capela"
+    Descripción: Compra tu primera Voz.
 
+2.  Logro: "Choir" - "Coro"
+    Descripción: Compra 10 voces.
 
-2.  
-
-
-3.  
-
+3.  Logro: "Be careful with the glasses" - "Cuidado con las copas"
+    Descripción: Compra 50 voces.
 
 4.  Logro: "Toot toot" - "Tururú"
     Descripción: Compra tu primera Trompeta.
@@ -23,12 +23,12 @@ Este documento es una recopilación de las ideas para logros donde se describir�
 6.  Logro: "Toot even louder" - "Tururú aún más fuerte"
     Descripción: Compra 50 trompetas.
 
-###### Logros de Clase...
+##### Logros de Clase ...
 #### "Notas Musicales por Segundo"
 
 
 
-###### Logros de Clase...
+##### Logros de Clase ...
 #### "Notas Musicales por Ascensión Musical"
 
 1.  Logro: "My First Sound" - "Mi Primer Sonido"
@@ -43,12 +43,12 @@ Este documento es una recopilación de las ideas para logros donde se describir�
     Descripción (ENG): Make 100000 Note in one Music Ascension.
     Descripción (ESP): Consigue 100000 notas musicales
 
-###### Logros de Clase...
+##### Logros de Clase ...
 #### "Ascención y Partituras"
 
 
 
-###### Logros de Clase...
+##### Logros de Clase ...
 #### "Secretos"
 
 
