@@ -57,4 +57,17 @@ Este documento es una recopilación de las ideas para logros donde se describir�
 ##### Logros de Clase ...
 #### "Secretos"
 
+1.  **Logro**:"Do You Remember?" - "Do You Remember?"
+    **Descripción**: ???
+    **Descripción Oculta (ENG)**: Enter the game on the 21st of September.
+    **Descripción Oculta (ESP)**: Ingresa al juego el 21 de Septiembre.
 
+2.  **Logro**:"Mermaid Melody" - "¡Canto de sirena, arriba el telón!"
+    **Descripción**: ???
+    **Descripción (ENG)**: Buy the mermaida and put her on the stage.
+    **Descripción (ESP)**: Compra la Sirena y ponla en el Escenario.
+
+3.  **Logro**: "4'33"... ¿Really?" - "4'33"... ¿En Serio?"
+    **Descripción**: ???
+    **Descripción (ENG)**: Start a new Music Ascension and don't make a single click for 4 minutes and 33 seconds.
+    **Descripción (ESP)**: Comienza una Ascensión Musical nueva y no hagas ni un solo click durante 4 minutos y 33 segundos.
