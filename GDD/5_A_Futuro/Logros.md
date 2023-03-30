@@ -21,11 +21,11 @@ Este documento es una recopilación de las ideas para logros donde se describir�
     **Descripción (ENG)**: Buy your first trumpet.
     **Descripción (ESP)**: Compra tu primera Trompeta.
 
-5.  **Logro**: "Toot louder" - "Tururú más fuerte"
+5.  **Logro**: "Toot even louder" - "Tururú aún más fuerte"
     **Descripción (ENG)**: Buy 10 trumpets.
     **Descripción (ESP)**: Compra 10 trompetas.
 
-6.  **Logro**: "Toot even louder" - "Tururú aún más fuerte"
+6.  **Logro**: "Mambo No.5" - "Mambo No.5"
     **Descripción (ENG)**: Buy 50 trumpets.
     **Descripción (ESP)**: Compra 50 trompetas.
 
