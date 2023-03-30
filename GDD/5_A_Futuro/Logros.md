@@ -5,7 +5,23 @@ Este documento es una recopilación de las ideas para logros donde se describir�
 ###### Logros de Clase...
 #### "Acumulación de Instrumentos"
 
+1.  
 
+
+2.  
+
+
+3.  
+
+
+4.  Logro: "Toot toot" - "Tururú"
+    Descripción: Compra tu primera Trompeta.
+
+5.  Logro: "Toot louder" - "Tururú más fuerte"
+    Descripción: Compra 10 trompetas.
+
+6.  Logro: "Toot even louder" - "Tururú aún más fuerte"
+    Descripción: Compra 50 trompetas.
 
 ###### Logros de Clase...
 #### "Notas Musicales por Segundo"
