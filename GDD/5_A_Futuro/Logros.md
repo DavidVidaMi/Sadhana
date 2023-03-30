@@ -6,22 +6,28 @@ Este documento es una recopilación de las ideas para logros donde se describir�
 #### "Acumulación de Instrumentos"
 
 1.  **Logro**: "A Cappella" - "A Capela"
-    **Descripción**: Compra tu primera Voz.
+    **Descripción (ENG)**: Buy your first Voice.
+    **Descripción (ESP)**: Compra tu primera Voz.
 
 2.  **Logro**: "Choir" - "Coro"
-    **Descripción**: Compra 10 voces.
+    **Descripción (ENG)**: Buy 10 voices.
+    **Descripción (ESP)**: Compra 10 voces.
 
 3.  **Logro**: "Be careful with the glasses" - "Cuidado con las copas"
-    **Descripción**: Compra 50 voces.
+    **Descripción (ENG)**: Buy 50 voices.
+    **Descripción (ESP)**: Compra 50 voces.
 
 4.  **Logro**: "Toot toot" - "Tururú"
-    **Descripción**: Compra tu primera Trompeta.
+    **Descripción (ENG)**: Buy your first trumpet.
+    **Descripción (ESP)**: Compra tu primera Trompeta.
 
 5.  **Logro**: "Toot louder" - "Tururú más fuerte"
-    **Descripción**: Compra 10 trompetas.
+    **Descripción (ENG)**: Buy 10 trumpets.
+    **Descripción (ESP)**: Compra 10 trompetas.
 
 6.  **Logro**: "Toot even louder" - "Tururú aún más fuerte"
-    **Descripción**: Compra 50 trompetas.
+    **Descripción (ENG)**: Buy 50 trumpets.
+    **Descripción (ESP)**: Compra 50 trompetas.
 
 ##### Logros de Clase ...
 #### "Notas Musicales por Segundo"
