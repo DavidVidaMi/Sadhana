@@ -26,9 +26,11 @@ public class Batuta : Instrumento
    new void Update()
     {
         
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !GameManager.instance.ElementoUI)
         {
             CuentaPuntos();
+            
+
         }
     }
 
@@ -40,15 +42,28 @@ public class Batuta : Instrumento
         // se recalcula el coste del mismo
         puntosCoste = puntosCoste * incrementoCoste;
         incrementoClick += 0.1f;
+        if (costeNumText != null)
+        {
+            if ((puntosCoste * 100 - Mathf.Floor(puntosCoste * 100) != 0))
+            {
+                costeNumText.text = puntosCoste.ToString("F2");
+            }
+            else
+            {
+                costeNumText.text = "" + puntosCoste;
+            }
+        }
     }
 
     protected override void OnMouseOver(){
-        if (Input.GetMouseButtonDown(0)){
+        if (buttonPresed)
+        {
             if(Compra()){
                 GameManager.instance.RestarPuntuacion(puntosCoste);
                 CosteInstrumento();
             }
         }
     }
+
 
 }
