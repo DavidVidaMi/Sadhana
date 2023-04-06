@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // clase padre que tendran que heredar todos los instrumentos
+[RequireComponent(typeof(AudioSource))]
 public abstract class Instrumento : MonoBehaviour
 {
     // puntos que cuesta el instrumento
