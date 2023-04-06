@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9245283, g: 0.7401177, b: 0.5974546, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4eec7c3345dc3c44b85f8c026a34d01e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.65, y: 1.65}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -93,12 +93,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5801520195005119435}
-<<<<<<< HEAD
-  - component: {fileID: 4081040357814513764}
-  - component: {fileID: 5897475331222675821}
-=======
   - component: {fileID: 7461317955657394900}
->>>>>>> actualizarmenu
+  - component: {fileID: 4393302464305011674}
   m_Layer: 0
   m_Name: Voz
   m_TagString: Untagged
@@ -122,8 +118,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!82 &4081040357814513764
+--- !u!114 &7461317955657394900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8408941310733955623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 152eb02489fcda344b23301a0c407df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 8300000, guid: 836500b38de398a479187111b64246aa, type: 3}
+  costeNumText: {fileID: 0}
+--- !u!82 &4393302464305011674
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -219,24 +228,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5897475331222675821
-=======
---- !u!114 &7461317955657394900
->>>>>>> actualizarmenu
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8408941310733955623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 152eb02489fcda344b23301a0c407df5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  sonido: {fileID: 0}
-  costeNumText: {fileID: 0}
-=======
-  sonido: {fileID: 8300000, guid: 836500b38de398a479187111b64246aa, type: 3}
->>>>>>> actualizarmenu

@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5342925250351801456}
-  - component: {fileID: 1334246196476182924}
   - component: {fileID: 2989392550446120699}
+  - component: {fileID: 1334246196476182924}
   m_Layer: 0
   m_Name: Saxofon
   m_TagString: Untagged
@@ -34,6 +34,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2989392550446120699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6288176002403864188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f14067020ab1894986a2f2f24ab0372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonido: {fileID: 0}
+  costeNumText: {fileID: 0}
 --- !u!82 &1334246196476182924
 AudioSource:
   m_ObjectHideFlags: 0
@@ -130,20 +144,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2989392550446120699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6288176002403864188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f14067020ab1894986a2f2f24ab0372, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sonido: {fileID: 0}
-  costeNumText: {fileID: 0}
 --- !u!1 &9199395681161590982
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,8 +217,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+  m_Sprite: {fileID: -728907911, guid: b09180c6b0cc8ea4f9ddf1a7cc31cc09, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
