@@ -26,13 +26,18 @@ public class Bajo : Instrumento {
         // comprobamos si tiene suficientes puntos para canjear.
         // En caso afirmativo, restamos los puntos de coste del instrumento
         // y actualizamos los puntos que costará el siguiente instrumento.
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0) || buttonPresed) {
+            print("compra: "+ Compra());
             if (Compra()) {
                 GameManager.instance.RestarPuntuacion(puntosCoste);
                 CosteInstrumento();
             }
+            buttonPresed = false;
         }
 
     }
+
+
+    
 
 }

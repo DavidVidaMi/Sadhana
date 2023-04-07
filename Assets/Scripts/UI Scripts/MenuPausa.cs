@@ -11,6 +11,8 @@ public class MenuPausa : MonoBehaviour
     // gos necesarios para poder manejar el menu de pausa
     public GameObject pauseMenuUI;
     public GameObject pauseButton;
+    public GameObject buyButton;
+    public GameObject buyMenuUI;
 
     // Update is called once per frame
     void Update()
@@ -36,6 +38,7 @@ public class MenuPausa : MonoBehaviour
         pauseMenuUI.SetActive(false);
         // activamos el boton que sirve para pausar
         pauseButton.SetActive(true);
+        buyButton.SetActive(true);
         // devolvemos la escala de tiempo del juego a 1
         Time.timeScale = 1f;
         // ponemos que el juego ya no esta pausado
@@ -50,6 +53,8 @@ public class MenuPausa : MonoBehaviour
         pauseMenuUI.SetActive(true);
         // desactivamos el boton que pausa el juego 
         pauseButton.SetActive(false);
+        buyButton.SetActive(false);
+        buyMenuUI.SetActive(false);
         // hacemos que la escala de tiempo del juego sea 0 para que no pase el mismo
         Time.timeScale = 0f;
     }

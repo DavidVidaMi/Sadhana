@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 // clase padre que tendran que heredar todos los instrumentos
 [RequireComponent(typeof(AudioSource))]
@@ -20,11 +21,17 @@ public abstract class Instrumento : MonoBehaviour
     private AudioSource audioSource;
     // variable para controlar el tiempo.
     private float tiempo;
+    protected bool buttonPresed = false;
+    public Text costeNumText;
 
     // Start is called before the first frame update
     protected void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        if (costeNumText != null)
+        {
+            costeNumText.text = "" + puntosCoste;
+        }
         tiempo = 0f;
     }
 
@@ -51,6 +58,17 @@ public abstract class Instrumento : MonoBehaviour
         cantidadInstrumento ++;
         // se recalcula el coste del mismo
         puntosCoste = puntosCoste * incrementoCoste;
+        print("nuevo conste: " +puntosCoste);
+        if (costeNumText != null) {
+            if ((puntosCoste * 100 - Mathf.Floor(puntosCoste * 100) != 0))
+            {
+                costeNumText.text = puntosCoste.ToString("F2");
+            }
+            else
+            {
+                costeNumText.text = "" + puntosCoste;
+            }
+        }
     }
 
     // comprobacion de si se puede comprar
@@ -70,4 +88,11 @@ public abstract class Instrumento : MonoBehaviour
 
     // metodo que controla cuando el raton se pone encima del GO
     protected abstract void OnMouseOver();
+
+    public void buton()
+    {
+        buttonPresed = true;
+        OnMouseOver();
+
+    }
 }

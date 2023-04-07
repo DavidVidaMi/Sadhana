@@ -16,6 +16,11 @@ public class GameManager : MonoBehaviour
     public float Puntuacion{
         get{ return puntuacion; }
     }
+    private bool elementoUI = false;
+    public bool ElementoUI
+    {
+        get { return elementoUI; }
+    }
 
     void Awake()
     {
@@ -33,7 +38,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     // metodo para la suma de puntos
@@ -60,5 +65,17 @@ public class GameManager : MonoBehaviour
     public void Sonido(AudioClip sonido)
     {
         audioSource.PlayOneShot(sonido);
+    }
+
+    public void DetectadoBoton()
+    {
+        print("detectado boton");
+        elementoUI = true;
+    }
+
+    public void NoDetectadoBoton()
+    {
+        print("no detectado");
+        elementoUI = false;
     }
 }

@@ -9,7 +9,7 @@ public class Voz : Instrumento {
 
         puntosCoste = 8f;
         puntosInSegundo = 0.4f;
-        incrementoCoste = 1f;
+        incrementoCoste = 1.3f;
         cantidadInstrumento = 0f;
         base.Start();
 
@@ -26,7 +26,7 @@ public class Voz : Instrumento {
         // comprobamos si tiene suficientes puntos para canjear.
         // En caso afirmativo, restamos los puntos de coste del instrumento
         // y actualizamos los puntos que costará el siguiente instrumento.
-        if (Input.GetMouseButtonDown(0)) {
+        if (Input.GetMouseButtonDown(0) || buttonPresed) {
             if (Compra()) {
                 GameManager.instance.RestarPuntuacion(puntosCoste);
                 CosteInstrumento();
