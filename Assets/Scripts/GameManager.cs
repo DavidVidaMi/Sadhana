@@ -48,8 +48,6 @@ public class GameManager : MonoBehaviour
         {
             puntuacion += puntos;
             textoPuntos.text = $"{puntuacion}";
-            // depuracion por consola TODO eliminar en implementacion final
-            print("puntuacion: " + puntuacion);
         }
     }
 
@@ -69,12 +67,14 @@ public class GameManager : MonoBehaviour
 
     public void DetectadoBoton()
     {
+        // logs de consola para saber si el raton esta encima o no de un elemento UI
         print("detectado boton");
         elementoUI = true;
     }
 
     public void NoDetectadoBoton()
     {
+        // logs de consola para saber si el raton esta encima o no de un elemento UI
         print("no detectado");
         elementoUI = false;
     }
