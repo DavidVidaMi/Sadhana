@@ -1548,9 +1548,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1056459310}
+      - m_Target: {fileID: 1056459311}
         m_TargetAssemblyTypeName: Instrumento, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: buton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4019,11 +4019,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040905834}
   m_CullTransparentMesh: 1
---- !u!1 &1056459310 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6288176002403864188, guid: c233b221a376c8549b1b269b2281bb2f, type: 3}
+--- !u!114 &1056459311 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2989392550446120699, guid: c233b221a376c8549b1b269b2281bb2f, type: 3}
   m_PrefabInstance: {fileID: 567801533}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f14067020ab1894986a2f2f24ab0372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1069248188
 GameObject:
   m_ObjectHideFlags: 0
