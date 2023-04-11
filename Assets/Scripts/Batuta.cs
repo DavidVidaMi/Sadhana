@@ -56,13 +56,7 @@ public class Batuta : Instrumento
     }
 
     protected override void OnMouseOver(){
-        if (buttonPresed)
-        {
-            if(Compra()){
-                GameManager.instance.RestarPuntuacion(puntosCoste);
-                CosteInstrumento();
-            }
-        }
+       
     }
 
 

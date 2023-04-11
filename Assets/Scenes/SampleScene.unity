@@ -5095,6 +5095,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1747542273}
     m_Modifications:
+    - target: {fileID: 2975701568331729404, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2975701568331729404, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.99999994
+      objectReference: {fileID: 0}
     - target: {fileID: 3370325760247819227, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5143,6 +5151,26 @@ PrefabInstance:
       propertyPath: costeNumText
       value: 
       objectReference: {fileID: 1232523177}
+    - target: {fileID: 6455936483755365238, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455936483755365238, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455936483755365238, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455936483755365238, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455936483755365238, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6619214832788287283, guid: 610a1d5a7c3d48446a742e2fb2f86eef, type: 3}
       propertyPath: m_Name
       value: Guitarra

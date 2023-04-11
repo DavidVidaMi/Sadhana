@@ -20,24 +20,27 @@ public class Bajo : Instrumento {
         base.Update();
     }
 
-    protected override void OnMouseOver() {
-
-        // Si pulsa con el botón principal del ratón en el instrumento,
-        // comprobamos si tiene suficientes puntos para canjear.
-        // En caso afirmativo, restamos los puntos de coste del instrumento
-        // y actualizamos los puntos que costará el siguiente instrumento.
-        if (Input.GetMouseButtonDown(0) || buttonPresed) {
-            print("compra: "+ Compra());
-            if (Compra()) {
-                GameManager.instance.RestarPuntuacion(puntosCoste);
-                CosteInstrumento();
+    protected override void OnMouseOver()
+    {
+        // Si pulsa con el botón principal del ratón en el instrumento, se activa o desactiva el sonido del mismo
+        if (Input.GetMouseButtonDown(0) || primeracompra)
+        {
+            SonidoReproducir();
+            if (sonidoVolumen == 1)
+            {
+                GetComponentInChildren<SpriteRenderer>().color = Color.white;
             }
-            buttonPresed = false;
-        }
+            else
+            {
+                GetComponentInChildren<SpriteRenderer>().color = Color.black;
+            }
+            
 
+            primeracompra = false;
+        }
     }
 
 
-    
+
 
 }
