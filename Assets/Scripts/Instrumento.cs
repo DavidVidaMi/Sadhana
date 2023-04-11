@@ -15,13 +15,19 @@ public abstract class Instrumento : MonoBehaviour
     protected float incrementoCoste;
     // variable que guarda la cantidad de instrumentos que tienes, ej: cantidad_instrumento = 2 tendria 2 trompetas
     protected float cantidadInstrumento;
-    // variable donde guardar el clip de audio que tendra el instrumento
-    public AudioClip sonido;
+    // variable para poder controlar cuando el usuario quiere que active o desactive el sonido
+    protected float sonidoVolumen = 0;
+    // variable para controlar si es la primera compra
+    protected bool primeracompra;
+
     // variable para que el instrumento reproduzca el sonido todo el rato.
     private AudioSource audioSource;
     // variable para controlar el tiempo.
     private float tiempo;
-    protected bool buttonPresed = false;
+
+    // variable donde guardar el clip de audio que tendra el instrumento
+    public AudioClip sonido;
+    // variable para poder controlar el texto de la interface
     public Text costeNumText;
 
     // Start is called before the first frame update
@@ -31,6 +37,12 @@ public abstract class Instrumento : MonoBehaviour
         if (costeNumText != null)
         {
             costeNumText.text = "" + puntosCoste;
+        }
+        if (audioSource != null)
+        {
+            audioSource.clip = sonido;
+            audioSource.volume = sonidoVolumen;
+            audioSource.Play();
         }
         tiempo = 0f;
     }
@@ -83,7 +95,19 @@ public abstract class Instrumento : MonoBehaviour
 
     protected void SonidoReproducir()
     {
-        //TODO cambiar el sonido
+        
+        if (sonidoVolumen == 0f)
+        {
+            sonidoVolumen = 1f;
+            audioSource.volume = sonidoVolumen;
+            print("volumen cambiado");
+        }
+        else
+        {
+            sonidoVolumen = 0f;
+            audioSource.volume = sonidoVolumen;
+        }
+
     }
 
     // metodo que controla cuando el raton se pone encima del GO
@@ -91,8 +115,20 @@ public abstract class Instrumento : MonoBehaviour
 
     public void buton()
     {
-        buttonPresed = true;
-        OnMouseOver();
+        // comprobamos si tiene suficientes puntos para canjear.
+        // En caso afirmativo, restamos los puntos de coste del instrumento
+        // y actualizamos los puntos que costará el siguiente instrumento.
+        if (Compra())
+        {
+            GameManager.instance.RestarPuntuacion(puntosCoste);
+            CosteInstrumento();
+            if (!primeracompra && cantidadInstrumento == 1)
+            {
+                primeracompra = true;
+                OnMouseOver();
+            }
+        }
 
+        
     }
 }
